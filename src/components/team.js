@@ -27,12 +27,12 @@ class Team extends React.Component {
 
     // Dynamic Team Members Easy to Update
     let data = [
-        {name: 'mark jkcno', designation:'designer', photo:'1.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'john doe', designation:'devloper', photo:'15.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'johanson let', designation:'ux designer', photo:'22.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'Walo Boni', designation:'app devloper', photo:'1.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'John Shipmen', designation:'app designer', photo:'22.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'Robert Tomkins', designation:'ceo', photo:'15.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
+        {name: 'kitman yiu', designation:'designer/developer', photo:'1.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
+        {name: 'pixel strap', designation:'designer/developer', photo:'15.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
+        {name: 'nobody', designation:'N/A', photo:'22.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
+        {name: 'nobody', designation:'N/A', photo:'1.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
+        {name: 'nobody', designation:'N/A', photo:'22.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
+        {name: 'nobody', designation:'N/A', photo:'15.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
         ];
 
     // Dynamic Team Members Data Loop

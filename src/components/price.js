@@ -30,9 +30,9 @@ class Price extends React.Component {
 
     // Dynamic Price Data Easy to Update
     let data = [
-        {title: 'Basic', lable:'Only the basic features', price:'969', features:'<li>1 GB of space</li><li>real time sync</li><li>unlimited attachment</li><li>customize theme</li><li>priority email support</li>', link:'#'},
-        {title: 'Standard', lable:'Take it to the next level', price:'969', features:'<li>1 GB of space</li><li>real time sync</li><li>unlimited attachment</li><li>customize theme</li><li>priority email support</li>', link:'#'},
-        {title: 'Custom', lable:'Our biggest plan', price:'969', features:'<li>1 GB of space</li><li>real time sync</li><li>unlimited attachment</li><li>customize theme</li><li>priority email support</li>', link:'#'},
+        {title: 'MONTHLY', lable:'Only the basic features', price:'0', features:'<li>1 GB of space</li><li>real time sync</li><li>unlimited attachment</li><li>customize theme</li><li>priority email support</li>', link:'#'},
+        {title: 'YEARLY', lable:'Take it to the next level', price:'0', features:'<li>1 GB of space</li><li>real time sync</li><li>unlimited attachment</li><li>customize theme</li><li>priority email support</li>', link:'#'},
+        {title: 'FOREVER', lable:'Our biggest plan', price:'0', features:'<li>1 GB of space</li><li>real time sync</li><li>unlimited attachment</li><li>customize theme</li><li>priority email support</li>', link:'#'},
     ];
 
     // Dynamic Price Data Loop

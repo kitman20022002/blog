@@ -15,8 +15,8 @@ class About extends React.Component {
                <div className="col-md-5">
                   <div className="about-contain">
                      <div>
-                        <h2 className="title">about the <span>tovo app</span></h2>
-                        <p className="caption-about">TOVO is dynamic, high-performance and easy to use landing page theme. The theme is developed focusing on the attractive designs and easy customizable features.</p>
+                        <h2 className="title">about <span>Awesome</span> membership benefits</h2>
+                        <p className="caption-about">Want to be smarter and faster awesome? Awesome is your place</p>
                         <div className="row sm-mb">
                            <div className="col-6">
                               <ul className="about-style">
@@ -27,7 +27,7 @@ class About extends React.Component {
                                        </div>
                                     </div>
                                     <div className="about-text">
-                                       <h3>Easy customize</h3>
+                                       <h3>Access to contents</h3>
                                     </div>
                                  </li>
                                  <li className="abt-hover">
@@ -37,7 +37,7 @@ class About extends React.Component {
                                        </div>
                                     </div>
                                     <div className="about-text">
-                                      <h3>easy to use</h3>
+                                      <h3>Full source code</h3>
                                     </div>
                                  </li>
                               </ul>
@@ -51,7 +51,7 @@ class About extends React.Component {
                                        </div>
                                     </div>
                                     <div className="about-text">
-                                      <h3>Nice Design</h3>
+                                      <h3>Great Community</h3>
                                     </div>
                                  </li>
                                  <li className="abt-hover">
@@ -61,7 +61,7 @@ class About extends React.Component {
                                        </div>
                                     </div>
                                     <div className="about-text">
-                                       <h3>SEO Friendly</h3>
+                                       <h3>Watch before anyone else</h3>
                                     </div>
                                  </li>
                               </ul>
@@ -74,11 +74,11 @@ class About extends React.Component {
                   </div>
                </div>
                <div className="col-md-7 d-medium-none">
-                  <div className="about-right">
-                     <div className="about-phone">
-                        <img  src="assets/images/aboutus.png" className="img-fluid" alt="aboutus" />
-                     </div>
-                  </div>
+                  {/*<div className="about-right">*/}
+                     {/*<div className="about-phone">*/}
+                        {/*<img  src="assets/images/aboutus.png" className="img-fluid" alt="aboutus" />*/}
+                     {/*</div>*/}
+                  {/*</div>*/}
                </div>
             </div>
          </div>

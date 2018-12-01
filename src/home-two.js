@@ -10,6 +10,8 @@ import Testimonial from './components/testimonial';
 import Contact from './components/contact';
 import Subscribe from './components/subscribe';
 import Footer from './components/footer';
+import Menu from './components/menu';
+import PopularPost from './components/popular-post';
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/scss/modal-video.scss';
 import Tilt from 'react-tilt';
@@ -26,7 +28,10 @@ class HomeTwo extends React.Component {
 	openModal () {
 	    this.setState({isOpen: true})
 	}
-	
+// img src=https://promo-theme.com/reka/wp-content/uploads/2018/03/line.png?id=108
+    //https://muse.forqy.website/blog/
+    //https://themeforest.net/item/typograph-content-focused-gutenberg-wordpress-blog-theme/22737802?s_rank=13
+    //https://preview.themeforest.net/item/muse-a-multipurpose-music-wordpress-theme/full_screen_preview/20412001?_ga=2.117597193.1461771269.1541796888-626330868.1534641726
   render() {
   	document.body.classList.remove('landing-page');
 	document.body.classList.remove('home-style');
@@ -46,11 +51,10 @@ class HomeTwo extends React.Component {
 			               <div className="text-white">
 			                  <div className="contain">
 			                  <img src="assets/images/home2/logo-icon.png" alt="logo" />
-			                  <h4 >Landing page for</h4>
-			                  <h1 className="text-white">t<span className="f-bold ">o</span>v<span className="f-bold ">o</span>
-			                     <span className="f-bold f-color text-white">app</span>
+			                  <h4 >Home page for</h4>
+			                  <h1 className="text-white">Awes<span className="f-bold ">o</span><span className="f-bold ">me</span>
 			                  </h1>
-			                  <p className="slide-cap-desc">Enhance your business ideas with Powerful, Responsive, Elegant TOVO Theme.</p>
+			                  <p className="slide-cap-desc">Want to be faster and smarter? awesome is your place</p>
 			                  <a href={null}><img src="assets/images/appstore.png" alt="appstore" className="store" /></a>
 			                  <a href={null}><img className="ml-10 store" src="assets/images/play-store.png" alt="play-store" /></a>
 			                  </div>
@@ -74,12 +78,12 @@ class HomeTwo extends React.Component {
 			   </div>
 			</section>
 			{/* Home Two Section End */}
-
+		    <Menu/>
 			{/* About Component*/}
 			<About />
 
 			{/*Feature Component*/}
-			<Feature />
+			<PopularPost />
 
 			{/*ScreenShot Component*/}
 			<ScreenShot />
@@ -92,10 +96,10 @@ class HomeTwo extends React.Component {
 
 			{/*Price Component*/}
 			<Price />
-			
+
 			{/*Testimonial Component*/}
 			<Testimonial />
-			
+
 			{/*Contact Component*/}
 			<Contact />
 
